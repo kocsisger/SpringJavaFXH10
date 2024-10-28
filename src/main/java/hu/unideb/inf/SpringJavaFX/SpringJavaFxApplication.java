@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class SpringJavaFxApplication extends CommandLineRunner {
+public class SpringJavaFxApplication implements CommandLineRunner {
 
 	PersonRepository personRepository;
 
